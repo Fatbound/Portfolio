@@ -1,2 +1,2 @@
-*.csv
-*.zip
+# Ipyn.Checkpoints
+*.ipynb_checkpoints
