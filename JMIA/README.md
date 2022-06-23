@@ -11,11 +11,11 @@ Como pasos preliminares realizamos dos situciones.
 * Un analicis de los precios a largo de los años, donde descubrimos los efectos en la pandemia del COVID 19 en la cotización de precios en la bolsa de valores.
 
 ## Data
-_Covid data_ extraída de:
+data_ extraída de:
 - [Kaggle](https://www.kaggle.com/datasets/mohammedouahman/jumia-stock-data-price-updated-all-time)
 
 ## Notebooks
-Los notebooks están divididos entre los datos de covid y educación siguiendo este patrón:
+Los notebooks están divididos entre:
 1) Limpieza
 2) Analisis y Exploración
 3) Modelo
@@ -29,8 +29,8 @@ Los notebooks están divididos entre los datos de covid y educación siguiendo e
 │   ├── processed      <- The final, canonical data sets for modeling.
 │   └── raw            <- The original, immutable data dump.
 │
-├── notebooks          <- Jupyter notebooks. Naming convention: number (for ordering),
-│   ├── 0. extraction     topic, delimited description, e.g.
+├── notebooks          <- Jupyter notebooks.
+│   ├── 0. extraction     
 │   ├── 1. Limpieza        
 │   ├── 2. Analisis y Exploración
 │   └── 3. Modelo
