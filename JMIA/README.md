@@ -7,8 +7,8 @@ Jumia Technologies AG opera una plataforma de comercio electrónico en África, 
 -------------------
 Lo que pretendo en este proyecto personal, es lograr comparar varios metodos de regresión lineal como el basico, ElasticNet y uno robusto como Huber. a partir de los datos proveidos por JUMIA durantes los años 2019,2020,y 2021.
 Como pasos preliminares realizamos dos situciones.
-    * Realizamos la limpieza de los datos, donde logramos observar que no teniamos datos null ni información faltante.
-    * Un analicis de los precios a largo de los años, donde descubrimos los efectos en la pandemia del COVID 19 en la cotización de precios en la bolsa de valores.
+* Realizamos la limpieza de los datos, donde logramos observar que no teniamos datos null ni información faltante.
+* Un analicis de los precios a largo de los años, donde descubrimos los efectos en la pandemia del COVID 19 en la cotización de precios en la bolsa de valores.
 
 ## Data
 _Covid data_ extraída de:
