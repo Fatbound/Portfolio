@@ -5,17 +5,19 @@
 EEUU siempre se ha destacado por la libertad de sus datos de conocimiento público, en esta ocasión dentro de la base de datos BSEE, se descargó una data  que contiene toda la información geológica de las arenas en el golfo de México hasta el año 2019. Esta información fue recolectada mediante la infinidad de pozos perforados en esta zona del mundo. Cabe aclarar, que de esta información recopilada por las perforaciones se obtuvo la información de la trampa petrolífera donde se encontraba entrampado el petróleo.
 
 -------------------
-Lo que pretendo en este proyecto personal, es realizar el data set clasico de tensorflow de reconocimiento de digitos escritos a manos. Este proyecto me permitio afianciar mis conocimientos de redes neuronales convolucionales y como aplicarlas.
-* Realizamos el reconocimento de mis datos de entrenamiento y mis datos de testeo.
-* Diseño mi red neuronal con 5 capas para realizar la identificación correcta de los digitos escritos a mano.
+Lo que pretendo en este proyecto personal, es realizar un análisis y la creación de un modelo dentro de la industria petrolera, la cual soy profesional. En esta ocasión, obtenemos los datos de las arenas productivas en el golfo de México mediante más de 10.000 datos de perforaciones a través de los años.
+* Análisis de la data original y evolución de la creación de los datos a través de los años.
+* Diseño de modelo de clasificación, utilizando modelos clásicos (Tree), RandomForest, AdaBoost .
 
 ## Data
 data_ extraída de:
-- [Kaggle](https://www.kaggle.com/competitions/digit-recognizer/data)
+- [BSEE](https://www.data.bsee.gov/Main/GandG.aspx)
 
 ## Notebooks
 Los notebooks están divididos entre:
-1) MNIST
+1) 0. Exploration
+2) 1.play_prediction
+3) 2. optimizer
 
 ## Project organization
 
@@ -27,7 +29,9 @@ Los notebooks están divididos entre:
 │   └── raw            <- The original, immutable data dump.
 │
 ├── notebooks          <- Jupyter notebooks.
-│   ├── 0. MNIST
+│   ├── 0. Exploration
+│   ├── 1. Play_prediction
+│   ├── 2. Optimizer
 │
 └── requirements.txt   <- The requirements file for reproducing the analysis environment.
 ```
