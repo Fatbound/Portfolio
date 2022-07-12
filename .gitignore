@@ -1,2 +1,4 @@
 # Ipyn.Checkpoints
 *.ipynb_checkpoints
+# .EXE
+*.exe
