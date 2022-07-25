@@ -1,2 +1,5 @@
 # Ipyn.Checkpoints
 *.ipynb_checkpoints
+*.zip
+*.exe
+*.png
